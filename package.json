@@ -1,0 +1,31 @@
+{
+  "name": "@kazupon/skypack-test",
+  "version": "0.0.1",
+  "description": "This pakcage is test for skypack publishment",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazupon/skypack-test.git"
+  },
+  "main": "./lib/index.cjs",
+  "module": "./lib/index.mjs",
+  "exports": {
+    ".": {
+      "import": {
+        "node": "./lib/index.mjs"
+      },
+      "require": "./lib/index.js"
+    },
+    "./package.json": "./package.json",
+    "./lib/*": "./lib/*",
+    "./components/*": "./components/*"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kazupon/skypack-test/issues"
+  },
+  "homepage": "https://github.com/kazupon/skypack-test#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}
