@@ -1,4 +1,5 @@
 <script>
+  import { isTest } from './test';
   export let text = 'hello';
 </script>
       
