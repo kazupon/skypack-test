@@ -27,5 +27,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "ohmyfetch": "^0.4.18",
+    "typescript": "^4.8.3"
+  }
 }
